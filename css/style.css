@@ -71,7 +71,7 @@ a {
     font-family: "Francois One";
     font-size: 36px;
     line-height: 48px;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     text-transform: uppercase;
     font-weight: normal;
 }
@@ -79,7 +79,7 @@ a {
 .subtitle {
     font-family: "Farro";
     font-size: 20px;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     font-weight: lighter;
     align-items: baseline;
 }
@@ -93,4 +93,8 @@ a {
 
 .underline {
     text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
 }
