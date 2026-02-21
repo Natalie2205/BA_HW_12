@@ -27,7 +27,7 @@ body {
 
 .nav {
     display: flex;
-    align-items: center;   
+    align-items: center;
 }
 
 .menu {
@@ -35,7 +35,7 @@ body {
     gap: 10px;
     padding-left: 0;
     list-style: none;
-    margin-right: 570px;
+    margin-right: 590px;
 }
 
 a {
@@ -58,4 +58,39 @@ a {
     text-transform: uppercase;
 }
 
+.section {
+    margin-top: 70px;
+}
 
+.title_box {
+    display: flex;
+    gap: 10px;
+}
+
+.title {
+    font-family: "Francois One";
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 4%;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.subtitle {
+    font-family: "Farro";
+    font-size: 20px;
+    letter-spacing: 4%;
+    font-weight: lighter;
+    align-items: baseline;
+}
+
+.description {
+    font-family: "PT Sans";
+    font-size: 28px;
+    line-height: 48px;
+    margin-top: 40px;
+}
+
+.underline {
+    text-decoration: underline;
+}

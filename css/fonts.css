@@ -15,3 +15,31 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: "Francois One";
+    src: url('../assets/fonts/francois_one/francois-one-v22-latin-regular.woff') format('woff'),
+        url('../assets/fonts/francois_one/francois-one-v22-latin-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "Farro";
+    src: url('../assets/fonts/farro/farro-v15-latin-300.woff') format('woff'),
+        url('../assets/fonts/farro/farro-v15-latin-300.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: "PT Sans";
+    src: url('../assets/fonts/pt_sans/pt-sans-v18-latin-regular.woff') format('woff'),
+        url('../assets/fonts/pt_sans/pt-sans-v18-latin-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+
+}
