@@ -68,7 +68,7 @@ a {
 }
 
 .title {
-    font-family: "Francois One";
+    font-family: var(--title-font-family);
     font-size: 36px;
     line-height: 48px;
     letter-spacing: 0.04em;
@@ -85,8 +85,6 @@ a {
 }
 
 .description {
-    font-family: "PT Sans";
-    font-size: 28px;
     line-height: 48px;
     margin-top: 40px;
     font-weight: normal;
@@ -103,6 +101,7 @@ a {
 .bg {
     background-color: #DADADA;
 }
+
 .main {
     margin-bottom: 90px;
 }
