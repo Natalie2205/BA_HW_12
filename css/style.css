@@ -89,6 +89,7 @@ a {
     font-size: 28px;
     line-height: 48px;
     margin-top: 40px;
+    font-weight: normal;
 }
 
 .underline {
@@ -97,4 +98,8 @@ a {
 
 .italic {
     font-style: italic;
+}
+
+.bg {
+    background-color: #DADADA;
 }
