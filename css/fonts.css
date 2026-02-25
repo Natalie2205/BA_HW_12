@@ -43,3 +43,21 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: "PT Sans Italic";
+    src: url('../assets/fonts/pt_sans/pt-sans-v18-latin-italic.woff') format('woff'),
+        url('../assets/fonts/pt_sans/pt-sans-v18-latin-italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: "PT Sans Bold";
+    src: url('../assets/fonts/pt_sans/pt-sans-v18-latin-700.woff') format('woff'),
+        url('../assets/fonts/pt_sans/pt-sans-v18-latin-700.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+
+}

@@ -28,14 +28,23 @@ body {
 .nav {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 50px;
 }
 
 .menu {
     display: flex;
+    justify-content: flex-start;
+    flex-grow: 1;
     gap: 10px;
     padding-left: 0;
     list-style: none;
-    margin-right: 590px;
+
+}
+
+.menu__item:nth-child(1)::after {
+    content: "/";
+    font-family: "Staatliches";
 }
 
 a {
@@ -43,9 +52,6 @@ a {
     text-decoration: none;
 }
 
-.lang {
-    margin-right: 50px;
-}
 
 .lang__link {
     font-family: "Tourney";
@@ -62,10 +68,6 @@ a {
     margin-top: 70px;
 }
 
-.title_box {
-    display: flex;
-    gap: 10px;
-}
 
 .title {
     font-family: var(--title-font-family);
@@ -74,14 +76,19 @@ a {
     letter-spacing: 0.04em;
     text-transform: uppercase;
     font-weight: normal;
+    position: relative;
 }
 
 .subtitle {
     font-family: "Farro";
     font-size: 20px;
+    line-height: normal;
     letter-spacing: 0.04em;
     font-weight: lighter;
-    align-items: baseline;
+    text-transform: capitalize;
+    position: absolute;
+    top: -5px;
+    margin-left: 10px;
 }
 
 .description {
@@ -95,7 +102,11 @@ a {
 }
 
 .italic {
-    font-style: italic;
+    font-family: "PT Sans Italic";
+}
+
+.bold {
+    font-family: "PT Sans Bold";
 }
 
 .bg {
