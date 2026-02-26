@@ -9,14 +9,24 @@
 
 html,
 body {
-    min-height: 100vh;
+    min-height: 200vh;
     font-size: var(--main-font-size);
     font-family: var(--main-font-family);
     color: #000;
+    position: relative;
 }
 
 .header {
     padding: 13px 0;
+    width: 100%;
+    position: fixed;
+    background: white;
+    z-index: 1;
+}
+
+.main {
+    position: relative;
+    padding-top: 150px;
 }
 
 .container {
@@ -65,7 +75,7 @@ a {
 }
 
 .section {
-    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 
@@ -111,8 +121,4 @@ a {
 
 .bg {
     background-color: #DADADA;
-}
-
-.main {
-    margin-bottom: 90px;
 }
