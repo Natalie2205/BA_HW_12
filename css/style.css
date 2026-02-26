@@ -74,6 +74,7 @@ a {
     text-transform: uppercase;
 }
 
+
 .flex-container {
     display: flex;
     gap: 30px;
@@ -90,14 +91,22 @@ a {
 
 .aside-menu__item {
     margin-bottom: 80px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #BDBDBD;
+    position: relative;
+}
+
+.aside-menu__item::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    width: 365px;
+    height: 1px;
+    background: #BDBDBD;
 }
 
 .section {
     margin-bottom: 70px;
 }
-
 
 .title,
 .aside-menu__link {
@@ -110,6 +119,15 @@ a {
     position: relative;
 }
 
+.title::before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100px;
+    height: 8px;
+    background: #000;
+}
 .subtitle {
     font-family: "Farro";
     font-size: 20px;
