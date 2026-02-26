@@ -27,6 +27,11 @@ body {
 .main {
     position: relative;
     padding-top: 150px;
+    background-image: url(../assets/img/bg-picture.png);
+    background-position-x: right;
+    background-position-y: 120px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .container {
