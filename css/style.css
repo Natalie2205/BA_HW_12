@@ -74,12 +74,33 @@ a {
     text-transform: uppercase;
 }
 
+.flex-container {
+    display: flex;
+    gap: 30px;
+}
+
+.aside-menu {
+    padding-left: 0;
+    list-style: none;
+    position: sticky;
+    top: 120px;
+    width: 385px;
+    padding: 8px;
+}
+
+.aside-menu__item {
+    margin-bottom: 80px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #BDBDBD;
+}
+
 .section {
     margin-bottom: 70px;
 }
 
 
-.title {
+.title,
+.aside-menu__link {
     font-family: var(--title-font-family);
     font-size: 36px;
     line-height: 48px;
