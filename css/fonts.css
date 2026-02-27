@@ -61,3 +61,11 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: "Roboto";
+    src: url('../assets/fonts/roboto/roboto-v51-latin-600.woff') format('woff'),
+        url('..//assets/fonts/roboto/roboto-v51-latin-600.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
